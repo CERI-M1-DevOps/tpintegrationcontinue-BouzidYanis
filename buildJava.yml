@@ -18,4 +18,4 @@ jobs:
           java-version: '21'
       # Etape 3
       - name: Create my package
-        run: mvn -B package
+        run: mvn -B package --file pom.xml
